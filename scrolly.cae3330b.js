@@ -5,4 +5,4 @@ var e,t=arguments[3];!function(t,n){"object"==typeof exports&&"undefined"!=typeo
 },{}],"sCpY":[function(require,module,exports) {
 "use strict";var e=t(require("scrollama"));function t(e){return e&&e.__esModule?e:{default:e}}var r=document.querySelector("main"),o=r.querySelector("#scrolly"),l=o.querySelector(".sticky-thing"),c=o.querySelector("article"),u=c.querySelectorAll(".step"),i=(0,e.default)();function n(e){var t=c.querySelector("video"),r=e.element;(console.log(r),"scroll-video"==r.dataset.id)?t.play():(t=c.querySelector("video")).pause()}function d(e){var t=c.querySelector("video");t.muted?(console.log("fired"),t.muted=!1):t.muted=!0}function s(){i.setup({step:"#scrolly article .step",offset:.1,debug:!1}).onStepEnter(n),window.addEventListener("click",d),window.addEventListener("resize",i.resize)}s();
 },{"scrollama":"Dvza"}]},{},["sCpY"], "script")
-//# sourceMappingURL=scrolly.cae3330b.js.map
+//# sourceMappingURL=https://spectator-static-assets.s3.amazonaws.com/uris-ac/scrolly.cae3330b.js.map
